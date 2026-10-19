@@ -1,9 +1,9 @@
-# Industrial Safety Compliance Auditor — Kritikal Hacks 2026
+# Industrial Safety Compliance Auditor
 
 > **Autonomous Industrial Safety and Compliance Intelligence Platform**  
 > **Core Integration:** TinyFish Search API + TinyFish Fetch API (with TinyAgent integration readiness)  
 > **Foundational AI Core:** Explainable SIF Risk Classifier, Entity Precursor Extractor, and Authoritative RAG  
-> **Reference Baseline:** SIF-GUARD (SIH26165)
+> **Domain Focus:** Serious Injury & Fatality (SIF) Precursors, Statutory Certification & Regulatory Verification
 
 ---
 
@@ -40,9 +40,9 @@ The platform integrates genuine TinyFish APIs:
 
 ---
 
-## 3. Reused SIF-Guard Components & New Additions
+## 3. Core Technical Architecture & Functional Modules
 
-### Reused from SIF-Guard:
+### Proven Analytical Foundation Modules:
 - **Hybrid SIF Classifier:** Leakage-free TF-IDF and Random Forest model (`classifier.py`) predicting SIF potential and risk score (0–100%).
 - **Structured Precursor Extraction:** Extraction of activities, locations, hazards, barrier breaches, and consequences (`extraction.py`).
 - **Semantic Life-Saving Rules (LSR):** Dense embedding matching against IOGP standardized life-saving rules (`lsr.py`).
@@ -185,7 +185,7 @@ dist/assets/index-sFGjBMzt.js   421.42 kB │ gzip: 114.31 kB
 
 ## 7. Connecting to a NEW GitHub Repository (Safe Git Workflow)
 
-The original SIF-Guard repository was kept completely untouched and pristine. This project has its own independent Git repository with no remote pointing to SIF-Guard.
+The reference safety baseline was kept completely untouched and pristine. This project has its own independent Git repository with no remote pointing to any external repository.
 
 To publish this new project to a NEW GitHub repository:
 

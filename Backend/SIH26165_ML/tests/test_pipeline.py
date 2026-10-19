@@ -1,5 +1,5 @@
 """
-test_pipeline.py - Automated Unit & Integration Tests for SIF-GUARD
+test_pipeline.py - Automated Unit & Integration Tests for Industrial Safety Compliance Auditor Core Engine
 Tests preprocessing, classifier, extraction, LSR matching, RAG retrieval,
 graceful degradation, and the V-102 end-to-end demo scenario.
 """
@@ -20,7 +20,7 @@ from ai.analysis import analyze_full_pipeline
 from ai.llm import generate_grounded_explanation
 
 
-class TestSIFGuardPipeline(unittest.TestCase):
+class TestSafetyPipeline(unittest.TestCase):
 
     def setUp(self):
         self.v102_report = (

@@ -38,7 +38,7 @@ export default function AppLayout() {
                 <span className="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
                 TINYFISH SEARCH + FETCH GROUNDED
               </span>
-              <span className="text-slate-400">KRITIKAL HACKS 2026</span>
+              <span className="text-slate-400 font-mono text-[10px]">AUTONOMOUS AUDITOR v1.0</span>
             </div>
           </div>
           <Outlet />

@@ -1,4 +1,4 @@
-# SIF-GUARD Backend — Render Free / 512 MB RAM
+# Industrial Safety Compliance Auditor Backend — Render Free / 512 MB RAM
 # All packages pinned to verified working versions.
 # CPU-only deployment — no CUDA/GPU packages.
 #

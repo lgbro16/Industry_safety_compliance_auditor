@@ -413,7 +413,7 @@ export default function PatternIntelligencePage() {
             Identified Multi-Site Recurring SIF Patterns
           </h2>
           <p className="text-sm text-slate-500 mt-1">
-            Systemic clusters discovered through NLP semantic clustering (Sentence Transformers + K-Means) across the OIL safety report prototype dataset.
+            Systemic clusters discovered through NLP semantic clustering (Sentence Transformers + K-Means) across the industrial safety report dataset.
           </p>
         </div>
 

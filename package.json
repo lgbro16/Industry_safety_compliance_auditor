@@ -1,7 +1,7 @@
 {
   "name": "industrial-safety-compliance-auditor",
   "version": "1.0.0",
-  "description": "Industrial Safety Compliance Auditor — Kritikal Hacks 2026. Powered by TinyFish Search & Fetch APIs + SIF-Guard Explainable AI Core.",
+  "description": "Industrial Safety Compliance Auditor — Autonomous Industrial Safety and Compliance Intelligence Platform powered by TinyFish Search & Fetch APIs.",
   "private": true,
   "scripts": {
     "start:backend": "python Backend/SIH26165_ML/server.py",

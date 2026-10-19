@@ -1,4 +1,4 @@
-// Centralized API configuration for SIF-GUARD
+// Centralized API configuration for Industrial Safety Compliance Auditor
 // When VITE_API_BASE_URL is set (e.g. deployed on Render), uses the full URL.
 // When unset (local development), uses relative path to leverage Vite proxy.
 export const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL || '').replace(/\/+$/, '');

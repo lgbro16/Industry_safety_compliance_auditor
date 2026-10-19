@@ -1,5 +1,5 @@
 """
-test_api.py - SIF-GUARD API Contract Test Suite
+test_api.py - Compliance Auditor API Contract Test Suite
 Tests all endpoints and measures RSS memory at each stage.
 Run AFTER starting the server: python test_api.py
 
@@ -221,7 +221,7 @@ def test_jobs(base):
 
 def run_all(base):
     print("=" * 60)
-    print("  SIF-GUARD API INTEGRATION TEST SUITE")
+    print("  INDUSTRIAL SAFETY COMPLIANCE AUDITOR API TEST SUITE")
     print("=" * 60)
     print(f"  Target: {base}")
     print(f"  RSS at test start: {rss_mb():.1f} MB")

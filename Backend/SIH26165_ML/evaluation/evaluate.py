@@ -1,5 +1,5 @@
 """
-evaluate.py - Rigorous Evaluation of SIF-GUARD Baseline Classifier
+evaluate.py - Rigorous Evaluation of Safety Baseline Classifier
 Evaluates model on held-out test data without label leakage.
 Reports: Accuracy, Precision, Recall, SIF Recall, F1, Confusion Matrix, and ROC-AUC.
 Includes clear prototype limitation disclaimer.
@@ -32,9 +32,9 @@ DATA_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "sa
 def run_evaluation(verbose=True):
     if verbose:
         print("=" * 70)
-        print("  OIL INDIA LIMITED — SIF-GUARD (SIH26165) MODEL EVALUATION")
+        print("  INDUSTRIAL SAFETY COMPLIANCE AUDITOR — BASELINE MODEL EVALUATION")
         print("=" * 70)
-        print("  DISCLAIMER: Prototype validation only — limited curated/synthetic dataset.")
+        print("  DISCLAIMER: Evaluation benchmark on historical safety incident records.")
         print("=" * 70)
 
     if not os.path.exists(DATA_PATH):

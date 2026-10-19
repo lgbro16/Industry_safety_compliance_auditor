@@ -137,7 +137,7 @@ IOGP_ALIGNED_LIFE_SAVING_RULES = {
     # ── PROTOTYPE EXTENSION CATEGORIES ──
     "Ground Disturbance": {
         "rule_type": "prototype_extension",
-        "framework": "SIF-GUARD Prototype Extension (Industry Precedent)",
+        "framework": "Process Safety Extension (Industry Precedent)",
         "description": (
             "Stop and verify underground services before digging or excavating. Obtain ground disturbance permit, "
             "scan utility drawings, and hand-dig near marked hydrocarbon pipelines."
@@ -150,7 +150,7 @@ IOGP_ALIGNED_LIFE_SAVING_RULES = {
     },
     "Safe System of Work / PTW": {
         "rule_type": "prototype_extension",
-        "framework": "SIF-GUARD Prototype Extension (Aligned with IOGP Work Authorization / OISD-105)",
+        "framework": "Process Safety Extension (Aligned with IOGP Work Authorization / OISD-105)",
         "description": (
             "Conduct work strictly under an authorized Permit to Work with completed Job Safety Analysis (JSA) "
             "and pre-job toolbox talk (TBM)."

@@ -1,7 +1,7 @@
 """
 server.py - Industrial Safety Compliance Auditor Backend Server
-Kritikal Hacks 2026 - Oil India Limited / Industrial Asset Safety
-Powered by TinyFish Search & Fetch APIs + SIF-Guard Explainable AI Core
+Autonomous Industrial Safety and Compliance Intelligence Platform
+Powered by TinyFish Search & Fetch APIs + Explainable Process Safety AI Core
 
 Features:
 - Autonomous Regulatory Intelligence via TinyFish Search + Fetch
@@ -10,7 +10,7 @@ Features:
 - Statutory Certificate Expiry & Gap Monitoring
 - Human-in-the-Loop Adjudication & Traceable Audit Trail
 - SQLite Persistent Storage for Data Continuity
-- Full Backward Compatibility with Legacy SIF-Guard Endpoints
+- Backward Compatible Safety Analysis Endpoints
 """
 
 import os
@@ -70,9 +70,9 @@ DATA_PATH = os.path.join(os.path.dirname(__file__), "data", "safety_reports.csv"
 def root_index():
     return jsonify({
         'status': 'HEALTHY',
-        'product': 'Industrial Safety Compliance Auditor — Kritikal Hacks 2026',
-        'organization': 'Oil India Limited / Industrial Safety Assurance',
-        'integration': 'TinyFish Search & Fetch APIs + SIF-Guard AI Core',
+        'product': 'Industrial Safety Compliance Auditor',
+        'description': 'Autonomous Industrial Safety and Compliance Intelligence Platform',
+        'integration': 'TinyFish Search & Fetch APIs + Explainable AI Safety Core',
         'endpoints': {
             'dashboard': '/api/audit/dashboard',
             'investigate': '/api/audit/investigate',
@@ -108,8 +108,8 @@ def health():
 
     return jsonify({
         'status': 'HEALTHY',
-        'product': 'Industrial Safety Compliance Auditor — Kritikal Hacks 2026',
-        'organization': 'Oil India Limited',
+        'product': 'Industrial Safety Compliance Auditor',
+        'description': 'Autonomous Industrial Safety and Compliance Intelligence Platform',
         'tinyfish_integration': tf_status,
         'embedding_model': get_embedding_model_name(),
         'embedding_status': emb_status.get('status'),
@@ -377,7 +377,7 @@ def audit_trail():
     return jsonify({'events': events, 'total': len(events)}), 200
 
 
-# ── 8. BACKWARD COMPATIBLE SIF-GUARD ENDPOINTS ──────────────────────────────
+# ── 8. BACKWARD COMPATIBLE SAFETY ANALYSIS ENDPOINTS ────────────────────────
 
 @app.route('/api/analyze', methods=['POST'])
 def analyze():

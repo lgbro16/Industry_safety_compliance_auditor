@@ -9,7 +9,7 @@ export default function AIAnalysisStudioPage() {
 
   const presets = [
     {
-      title: "SIH-26165 Mandated Demo: Separator V-102 Sludge Removal (Pump Station 4)",
+      title: "High-Risk Scenario: Separator V-102 Sludge Removal (Pump Station 4)",
       facility: "Separator Vessel V-102, Pump Station 4",
       activity: "Sludge removal",
       pressure: "Atmospheric",
@@ -233,7 +233,7 @@ export default function AIAnalysisStudioPage() {
         <div className="space-y-2">
           <div className="flex items-center gap-2.5 flex-wrap">
             <span className="font-mono text-xs font-bold px-2.5 py-1 bg-[#0F1E36] text-blue-200 rounded tracking-wide">
-              SIF-GUARD v1.0
+              SAFETY COMPLIANCE AUDITOR v1.0
             </span>
             <span className="text-xs text-slate-500 font-medium flex items-center gap-1">
               <span className="material-symbols-outlined text-sm text-slate-400">psychology</span>

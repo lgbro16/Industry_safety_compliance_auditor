@@ -1,8 +1,8 @@
 {
-  "name": "SIF-GUARD Prototype Knowledge Base",
-  "version": "1.0.0-prototype",
-  "status": "PROTOTYPE_REFERENCE_EXTRACTS",
-  "disclaimer": "Curated reference extracts for prototype demonstration. Must be replaced with verified authoritative OIL/OISD/IOGP source documents for enterprise production.",
+  "name": "Industrial Safety Knowledge Base",
+  "version": "1.0.0",
+  "status": "STATUTORY_REFERENCE_EXTRACTS",
+  "disclaimer": "Curated reference extracts for safety decision support. Verified compliance requires qualified HSE sign-off.",
   "documents": [
     {
       "id": "IOGP-459-REF",

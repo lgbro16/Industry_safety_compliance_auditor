@@ -4,7 +4,7 @@
 			"path": "."
 		},
 		{
-			"path": "../sih"
+			"path": "../../Frontend/FRONTEND"
 		}
 	],
 	"settings": {

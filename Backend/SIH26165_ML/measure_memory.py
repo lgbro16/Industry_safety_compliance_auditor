@@ -1,5 +1,5 @@
 """
-measure_memory.py - RSS Memory measurement for SIF-GUARD backend
+measure_memory.py - RSS Memory measurement for Compliance Auditor backend
 Run this BEFORE and AFTER optimizations to measure actual process memory.
 """
 

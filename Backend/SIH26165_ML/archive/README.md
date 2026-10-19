@@ -5,8 +5,8 @@ This directory contains deprecated, early prototype scripts and the obsolete Str
 - `step1_create_dataset.py` to `step5_predict.py`: Early sequential script pipeline, replaced by the modular `ai/` package.
 - `add_columns.py`: Early data restructuring utility.
 
-## Canonical Production Prototype
-The official and canonical backend architecture for SIF-GUARD (SIH26165) is:
+## Canonical Architecture
+The official and canonical backend architecture for the Industrial Safety Compliance Auditor is:
 - **`server.py`**: Production Flask REST API (`/api/analyze`, `/api/overview`, `/api/patterns`, `/api/reviews`, `/api/health`).
 - **`ai/` Package**: Modular, explainable AI safety intelligence engine:
   - `ai/analysis.py`: Master analysis orchestrator

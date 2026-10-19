@@ -1,6 +1,6 @@
 """
-rag.py - Retrieval-Augmented Generation Engine for SIF-GUARD
-Indexes and retrieves genuine safety evidence from local prototype reference extracts
+rag.py - Retrieval-Augmented Generation Engine for Industrial Safety Compliance Auditor
+Indexes and retrieves genuine safety evidence from local reference extracts
 (IOGP 459, OISD-105, OIL H2S Guidelines, Operating Procedures).
 Strict rule: ZERO fabrication. Only genuine chunks from local reference files are retrieved.
 Production notice: Authoritative original documents must replace extracts for live enterprise deployment.
@@ -300,7 +300,7 @@ def get_rag_status() -> Dict[str, Any]:
         "knowledge_base": "curated_reference_extracts",
         "documents_indexed": len(_CHUNKS) if _CHUNKS else 19,
         "is_authoritative_original": False,
-        "notice": "Prototype reference extracts for SIH26165. Production requires official corporate HSE documents."
+        "notice": "Curated reference extracts for process safety decision support. Verified compliance requires corporate HSE sign-off."
     }
 
 

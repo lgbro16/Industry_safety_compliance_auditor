@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: sif-guard-backend
+    name: industrial-safety-compliance-auditor
     runtime: python
     rootDir: Backend/SIH26165_ML
     # CPU-only torch MUST be installed before sentence-transformers.
@@ -16,6 +16,10 @@ services:
         value: production
       - key: CORS_ORIGIN
         value: "*"
+      - key: TINYFISH_API_KEY
+        sync: false
+      - key: TINYFISH_ENABLED
+        value: "true"
       - key: GEMINI_API_KEY
         sync: false
       - key: OMP_NUM_THREADS

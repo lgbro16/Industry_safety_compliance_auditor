@@ -447,7 +447,7 @@ export default function SafetyInvestigationPage() {
           {activeTab === 'precursors' && (
             <div className="bg-white rounded-xl border border-slate-200 p-6 shadow-sm space-y-4">
               <h3 className="font-bold text-sm text-slate-900 font-['Public_Sans'] pb-3 border-b border-slate-100">
-                Structured Precursor Extraction (SIF-Guard Core)
+                Structured Factor & Precursor Extraction
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 text-xs">
                 <div className="p-3 bg-slate-50 rounded-lg border border-slate-100">

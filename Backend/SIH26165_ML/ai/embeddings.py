@@ -1,5 +1,5 @@
 """
-embeddings.py - Singleton Semantic Embedding Service for SIF-GUARD
+embeddings.py - Singleton Semantic Embedding Service for Process Safety Platform
 Provides ONE shared SentenceTransformer instance reused by all components:
   - Semantic LSR matching (lsr.py)
   - RAG retrieval (rag.py)
@@ -30,7 +30,7 @@ _EMBEDDING_MODE = os.environ.get("EMBEDDING_MODE", "semantic").lower().strip()
 
 class EmbeddingService:
     """
-    Singleton Semantic Embedding Service for SIF-GUARD.
+    Singleton Semantic Embedding Service for Process Safety Platform.
     Reused across:
       - Semantic LSR matching (lsr.py)
       - RAG retrieval (rag.py)

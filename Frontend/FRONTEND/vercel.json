@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://sif-guard-sih-26165.onrender.com/api/$1"
+      "destination": "https://industrial-safety-compliance-auditor.onrender.com/api/$1"
     }
   ]
 }

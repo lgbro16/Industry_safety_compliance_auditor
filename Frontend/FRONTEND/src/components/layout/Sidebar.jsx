@@ -48,7 +48,7 @@ export default function Sidebar() {
                 COMPLIANCE AUDITOR
               </span>
               <span className="font-mono text-[9px] tracking-wider text-blue-400 font-semibold uppercase truncate">
-                TinyFish • Kritikal Hacks 2026
+                Autonomous Safety Intelligence
               </span>
             </div>
           )}

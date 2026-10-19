@@ -1,7 +1,7 @@
 """
 investigation_orchestrator.py - Master Safety Compliance Investigation Orchestrator
 Bridges:
-- SIF-Guard ML Risk Classification & Extraction
+- Baseline Process Safety ML Classification & Factor Extraction
 - Internal Authoritative Safety RAG (IOGP Life-Saving Rules)
 - TinyFish Autonomous Regulatory Search & Fetch Engine
 - Requirement-to-Evidence Correlation & Candidate Findings Generation
@@ -33,7 +33,7 @@ def run_compliance_investigation(
     if not report_text or not report_text.strip():
         raise ValueError("Safety report text is required.")
 
-    # 1. Run internal SIF-Guard pipeline (Classifier, Extractors, LSR, Internal RAG, LLM)
+    # 1. Run baseline process safety pipeline (Classifier, Extractors, LSR, Internal RAG, LLM)
     base_analysis = analyze_full_pipeline(report_text)
 
     risk_level = base_analysis.get("risk_level", "MEDIUM")

@@ -1,5 +1,5 @@
 """
-analysis.py - Master SIF-GUARD AI Analysis Orchestrator
+analysis.py - Master Process Safety AI Analysis Orchestrator
 Coordinates the complete, explainable AI safety intelligence pipeline:
 Text Preprocessing -> Hybrid SIF Classifier -> Information Extraction ->
 Semantic LSR Matching -> FAISS/RAG Retrieval -> Grounded LLM Explanation ->
