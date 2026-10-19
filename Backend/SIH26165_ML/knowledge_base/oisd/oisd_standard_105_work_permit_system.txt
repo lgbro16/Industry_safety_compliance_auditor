@@ -1,0 +1,25 @@
+# OISD STANDARD 105: WORK PERMIT SYSTEM (OIL INDUSTRY SAFETY DIRECTORATE, INDIA)
+
+## CLAUSE 5.1: CONTROL OF WORK AND PERMIT CATEGORIES
+- A Work Permit (PTW) is a formal written document issued by an authorized custodian to a performing authority authorizing specified maintenance or inspection activities within a designated hydrocarbon-processing facility.
+- Mandatory categories include: Hot Work Permit (Class A / Class B), Cold Work Permit, Confined Space Entry Permit, Electrical Isolation / Energization Permit, and Excavation Permit.
+
+## CLAUSE 5.3: CONFINED SPACE ENTRY REQUIREMENTS
+1. Atmospheric Testing Standards:
+   - Prior to any entry into a tank, separator vessel, column, pit, or manhole, mandatory atmospheric testing must be performed by an Authorized Gas Tester (AGT).
+   - Oxygen concentration must be verified strictly between 19.5% and 23.5% by volume.
+   - Hydrocarbon flammable vapor concentration must be 0% LEL (Lower Explosive Limit) for entry without breathing apparatus, and strictly below 10% LEL with air-supplied respiratory equipment.
+   - Toxic gases must be tested: Hydrogen Sulfide (H2S) must be below 10 ppm permissible exposure limit (PEL). If H2S exceeds 10 ppm, entry is prohibited without positive-pressure SCBA.
+2. Stationing of Standby Person (Hole Watch):
+   - A trained, dedicated Standby Person must be stationed outside the entrance hatch or manhole at all times while personnel remain inside.
+   - The Standby Person must maintain continuous visual or verbal communication with all entrants.
+   - The Standby Person must never abandon the manhole post or attempt internal rescue without first raising the alarm and awaiting the certified emergency rescue team.
+3. Personal Safety Equipment and Retrieval:
+   - Entrants must wear safety harnesses connected to lifelines with tripod recovery hoists erected over vertical manways where practical.
+   - Continuous forced extraction or air-blowing ventilation must be maintained throughout the entry period.
+
+## CLAUSE 5.5: POSITIVE ENERGY ISOLATION & LOTO
+1. Mechanical Isolation:
+   - Hydrocarbon pipelines connected to equipment undergoing internal work must be positively isolated by physical blind flanges, spectacle blinds, or double-block-and-bleed valve arrangements with vent bleeders locked open.
+2. Electrical Isolation:
+   - Electrical switchgear and circuit breakers driving associated pumps, mixers, or heaters must be tagged out and padlocked (LOTO) by an authorized electrical engineer, followed by local push-button attempt-to-start verification.

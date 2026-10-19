@@ -1,0 +1,41 @@
+# STANDARD OPERATING PROCEDURE (SOP): SEPARATOR VESSEL ENTRY AND SLUDGE REMOVAL
+
+## PROCEDURE ID: SOP-OPS-HSE-SEP-04
+APPLICABLE ASSETS: 2-Phase and 3-Phase Production Separators (e.g., Separator Vessels V-101, V-102, V-201 at Pump Stations & Gathering Facilities).
+
+## 1. PRE-ENTRY ISOLATION AND PREPARATION PROTOCOL
+1.1 Physical Isolation:
+- Close and lock out all crude inlet lines, gas outlet valves, water discharge headers, and chemical injection lines.
+- Install positive spade blinds (blind flanges) on all nozzles directly entering the vessel. Double-block-and-bleed valve isolation alone is not acceptable for vessel internal manway entry.
+- Apply LOTO padlocks and danger tags on all isolation points; record tags in the facility isolation register.
+
+1.2 Depressurization and Gas Freeing:
+- Depressurize vessel to atmospheric pressure via the flare/vent header.
+- Drain all free hydrocarbons into the closed oily water sump.
+- Perform steam purging or nitrogen sweep for a minimum of 4 hours, followed by continuous air blowing to purge all hydrocarbon vapors and trapped H2S pockets.
+
+## 2. MANDATORY CONFINED SPACE ATMOSPHERIC TESTING
+2.1 Pre-Entry Testing:
+- Prior to opening manholes or allowing personnel inside, an Authorized Gas Tester (AGT) must test the internal atmosphere through top and side test ports.
+- Parameters measured:
+  * Oxygen (O2): Must be strictly between 19.5% and 23.5%.
+  * Flammable gas: 0% LEL.
+  * Hydrogen Sulfide (H2S): 0.0 ppm (or strictly < 10 ppm with approved breathing apparatus).
+2.2 Continuous Monitoring:
+- During sludge shoveling, trapped gas pockets in oily sludge can release sudden surges of H2S or VOCs when agitated. Continuous aspirated atmospheric monitoring must be maintained at the working face throughout the cleaning duration.
+
+## 3. STANDBY PERSON (HOLE WATCH) DUTIES
+3.1 Stationing:
+- A qualified Standby Person must be positioned outside the open manway hatch throughout the entire duration of internal sludge removal.
+- The Standby Person must log all entrants, record entry/exit times, and maintain continuous voice or visual contact with workers inside.
+- Under NO circumstances may the Standby Person leave the manhole unattended or enter the vessel to attempt an unassisted rescue.
+3.2 Emergency Protocols:
+- If an entrant shows signs of dizziness, gas exposure, or distress, the Standby Person must immediately activate the emergency air horn / facility ESD alarm and direct the external rescue team.
+- A mechanical retrieval tripod, harness, and hoist must remain rigged over the manway opening.
+
+## 4. SLUDGE REMOVAL OPERATION AND PPE CONTROLS
+4.1 Mechanical Controls:
+- All tools used inside the separator vessel (shovels, scrapers, buckets) must be non-sparking beryllium-copper or bronze alloys to prevent ignition of pyrophoric iron sulfide scale.
+- Intrinsically safe (Ex-d rated) 24V inspection lighting must be used.
+4.2 Entrant PPE:
+- Entrants must wear chemical-resistant impermeable coveralls, nitrile/neoprene gloves, rubber safety boots with steel toes, and personal H2S gas monitors clipped in the breathing zone.

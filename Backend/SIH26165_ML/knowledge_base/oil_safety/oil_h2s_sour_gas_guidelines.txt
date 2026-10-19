@@ -1,0 +1,17 @@
+# OIL INDIA LIMITED / OISD-GDN-112: SAFETY GUIDELINES FOR HYDROGEN SULFIDE (H2S) OPERATIONS
+
+## 1. NATURE AND PHYSIOLOGICAL HAZARDS OF H2S
+- Hydrogen Sulfide (H2S) is a colourless, extremely toxic, and heavier-than-air gas (specific gravity 1.19) commonly encountered in sour crude production, separation vessels, and gas compression manifolds in the Assam and Rajasthan basins.
+- Olfactory fatigue occurs rapidly above 20-50 ppm, stripping the sense of smell and rendering olfactory detection lethal.
+- Atmospheric thresholds:
+  * 10 ppm: Time-Weighted Average (TWA) 8-hour permissible workplace limit.
+  * 15 ppm: Short-Term Exposure Limit (STEL) 15-minute maximum.
+  * 50-100 ppm: Severe eye irritation, respiratory coughing, rapid loss of smell.
+  * 100 ppm: Immediately Dangerous to Life or Health (IDLH) ceiling.
+  * 500-1000 ppm: Rapid unconsciousness ("knockdown"), instantaneous respiratory paralysis, and death within minutes without immediate resuscitation.
+
+## 2. MANDATORY DETECTION AND RESPIRATORY CONTROLS
+- All personnel operating in designated sour oil/gas facilities (including Pump Stations, Separator Banks, Tank Farms, and Drilling Wells) must carry a calibrated personal electronic 4-gas monitor bump-tested within the preceding 24 hours.
+- Entry into any enclosed or low-lying space where H2S may pocket requires prior gas testing using a dedicated aspirated probe before entry.
+- Positive-Pressure Self-Contained Breathing Apparatus (SCBA) or airline breathing systems with escape bottles are mandatory whenever H2S levels exceed 10 ppm or when opening hydrocarbon containment before gas verification.
+- Filter-type cartridge respirators are strictly prohibited for H2S atmospheres due to rapid bed breakthrough.

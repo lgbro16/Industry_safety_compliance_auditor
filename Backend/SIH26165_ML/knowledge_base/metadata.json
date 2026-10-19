@@ -1,0 +1,40 @@
+{
+  "name": "SIF-GUARD Prototype Knowledge Base",
+  "version": "1.0.0-prototype",
+  "status": "PROTOTYPE_REFERENCE_EXTRACTS",
+  "disclaimer": "Curated reference extracts for prototype demonstration. Must be replaced with verified authoritative OIL/OISD/IOGP source documents for enterprise production.",
+  "documents": [
+    {
+      "id": "IOGP-459-REF",
+      "title": "IOGP Report 459: Life-Saving Rules Reference Extract",
+      "category": "IOGP Life-Saving Rules (Reference Extract)",
+      "file": "iogp/iogp_report_459_life_saving_rules.txt",
+      "is_authoritative_original": false,
+      "description": "Curated reference clauses covering IOGP Life-Saving Rules for prototype evaluation."
+    },
+    {
+      "id": "OISD-105-REF",
+      "title": "OISD Standard 105: Work Permit System Reference Extract",
+      "category": "OISD Standard 105 (Reference Extract)",
+      "file": "oisd/oisd_standard_105_work_permit_system.txt",
+      "is_authoritative_original": false,
+      "description": "Curated standard clauses for work permit systems, confined space entry, and positive isolation."
+    },
+    {
+      "id": "OIL-H2S-REF",
+      "title": "OIL / OISD-GDN-112: H2S Safety Guidelines Reference Extract",
+      "category": "OIL H2S Guidelines (Reference Extract)",
+      "file": "oil_safety/oil_h2s_sour_gas_guidelines.txt",
+      "is_authoritative_original": false,
+      "description": "Curated operational guidance on toxic hydrogen sulfide physiological thresholds and monitoring."
+    },
+    {
+      "id": "SOP-SEP-04-REF",
+      "title": "SOP: Separator Vessel Entry & Sludge Removal Reference Extract",
+      "category": "OIL Field SOP Reference (Separator Entry)",
+      "file": "procedures/sop_separator_vessel_cleaning_sludge_removal.txt",
+      "is_authoritative_original": false,
+      "description": "Curated procedural steps for pre-entry isolation, atmospheric gas testing, and standby watch."
+    }
+  ]
+}

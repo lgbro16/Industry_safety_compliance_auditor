@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: sif-guard-backend
+    runtime: python
+    rootDir: Backend/SIH26165_ML
+    # CPU-only torch MUST be installed before sentence-transformers.
+    # This prevents pip from pulling the full CUDA torch (~2 GB) which exceeds Render Free disk limit.
+    buildCommand: >
+      pip install torch==2.4.0+cpu --index-url https://download.pytorch.org/whl/cpu &&
+      pip install -r requirements.txt
+    # Single worker — do NOT increase. Multiple workers multiply memory usage.
+    # timeout 120 to allow sentence-transformer model load on first request.
+    startCommand: gunicorn server:app --bind 0.0.0.0:$PORT --timeout 120 --workers 1
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      - key: CORS_ORIGIN
+        value: "*"
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: OMP_NUM_THREADS
+        value: "1"
+      - key: MKL_NUM_THREADS
+        value: "1"
+      - key: OPENBLAS_NUM_THREADS
+        value: "1"
+      - key: TOKENIZERS_PARALLELISM
+        value: "false"

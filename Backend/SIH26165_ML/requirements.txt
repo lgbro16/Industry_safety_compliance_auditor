@@ -1,0 +1,44 @@
+# SIF-GUARD Backend — Render Free / 512 MB RAM
+# All packages pinned to verified working versions.
+# CPU-only deployment — no CUDA/GPU packages.
+#
+# INSTALL ORDER FOR RENDER:
+# 1. pip install torch==2.4.0+cpu --index-url https://download.pytorch.org/whl/cpu
+# 2. pip install -r requirements.txt
+#
+# Or set Render build command:
+# pip install torch==2.4.0+cpu --index-url https://download.pytorch.org/whl/cpu && pip install -r requirements.txt
+
+# ── Web Framework ────────────────────────────────────────
+flask==3.1.1
+flask-cors==5.0.1
+gunicorn==23.0.0
+python-dotenv==1.0.1
+
+# ── Data & Numerics ──────────────────────────────────────
+# numpy: required by scipy, scikit-learn, sentence-transformers, faiss-cpu
+numpy==1.26.4
+# pandas: used only in server.py (/api/analytics), analysis.py (dataset load),
+#         patterns.py (dataset load), classifier.py (training), evaluate.py
+pandas==2.2.3
+
+# ── ML / NLP ─────────────────────────────────────────────
+scikit-learn==1.5.2
+joblib==1.4.2
+# scipy: required by scikit-learn (sparse matrices for classifier TF-IDF feature hstack)
+scipy==1.13.1
+
+# ── Semantic Embeddings (CPU-only) ───────────────────────
+# sentence-transformers: core semantic embedding for LSR, RAG, similar-report matching.
+# Requires torch (CPU build) pre-installed — see build command above.
+sentence-transformers==3.2.1
+
+# ── Vector Retrieval ─────────────────────────────────────
+# faiss-cpu: FAISS IndexFlatIP for RAG evidence retrieval.
+# The persisted index (models/vector_index.faiss) is ~29 KB — tiny.
+faiss-cpu==1.8.0
+
+# ── External LLM (Gemini API) ────────────────────────────
+# google-genai: Gemini 2.5 Flash grounded explanation layer.
+# No local LLM. No model weights downloaded.
+google-genai==1.12.1

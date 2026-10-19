@@ -1,0 +1,47 @@
+[
+  {
+    "review_id": "REV-1790588651",
+    "report_id": "V102-TEST-001",
+    "action": "CONFIRM",
+    "decision": "CONFIRM",
+    "reviewer_decision": "CONFIRM",
+    "classification_status": "HSE-Confirmed SIF Precursor",
+    "status": "HSE-Confirmed SIF Precursor",
+    "reviewer_comment": "HSE verified Confined Space Life-Saving Rule breach at V-102 Pump Station 4",
+    "reviewer_name": "Lead HSE Safety Officer",
+    "adjusted_sif": true,
+    "timestamp": "2026-09-28T09:44:11.753580+00:00",
+    "model_version": "sif-baseline-v1",
+    "original_prediction": {}
+  },
+  {
+    "review_id": "REV-1789540343",
+    "report_id": "PROTO-10231",
+    "action": "CONFIRM",
+    "decision": "CONFIRM",
+    "reviewer_decision": "CONFIRM",
+    "classification_status": "HSE-Confirmed SIF Precursor",
+    "status": "HSE-Confirmed SIF Precursor",
+    "reviewer_comment": "HSE verified Life-Saving Rule precursor breach",
+    "reviewer_name": "Lead HSE Reviewer",
+    "adjusted_sif": true,
+    "timestamp": "2026-09-16T06:32:23.561975+00:00",
+    "model_version": "sif-baseline-v1",
+    "original_prediction": {}
+  },
+  {
+    "review_id": "REV-1789540349",
+    "report_id": "PROTO-10228",
+    "action": "OVERRIDE",
+    "decision": "OVERRIDE",
+    "reviewer_decision": "OVERRIDE",
+    "classification_status": "AI-Flagged SIF Precursor (Adjudicated)",
+    "status": "AI-Flagged SIF Precursor (Adjudicated)",
+    "reviewer_comment": "Downgraded after field verification; no catastrophic potential",
+    "reviewer_name": "Lead HSE Reviewer",
+    "adjusted_sif": false,
+    "timestamp": "2026-09-16T06:32:29.047624+00:00",
+    "model_version": "sif-baseline-v1",
+    "original_prediction": {}
+  }
+]
